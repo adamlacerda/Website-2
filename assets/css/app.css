@@ -1,0 +1,51 @@
+/* RESET CSS */
+:root {
+    --c-brand: #fac562;
+    --c-dark: #333;
+    --c-body: #666; /*c == color*/
+    --f-base: "Plus Jakarta Sans", sans-serif; /*f == font*/
+    --n-heigth: 100px; /*n == navegation*/
+}
+
+*, *::after, *::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    color: var(--c-body);
+    font-family: var(--f-base);
+    line-height: 1.2;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--c-dark);
+    line-height: 1.2;
+    margin-bottom: 10px;
+}
+
+a {
+    color: var(--c-dark);
+    text-decoration: none;
+    transition: all 0.4s ease-in-out;
+}
+
+a:hover {
+    color: var(--c-brand);
+}
+
+section {
+    padding: 140px 0;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
