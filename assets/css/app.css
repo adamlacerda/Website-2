@@ -47,5 +47,22 @@ section {
     max-width: 1140px;
     width: 100%;
     margin: 0 auto;
-    background-color: aquamarine;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: transparent;
+    border: 1px solid var(--c-brand);
+    font-family: var(--f-base);
+    padding: 14px 34px;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+    font-size: 14px;
+}
+
+.btn:hover {
+    background-color: var(--c-brand);
+    color: #fff;
 }
